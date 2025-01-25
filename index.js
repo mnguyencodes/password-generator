@@ -8,3 +8,11 @@ const asciiLowercase = "abcdefghijklmnopqrstuvwxyz";
 const asciiUppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const punctuation = `!"#$%&'()*+,-./:;<=>?@[\\]^_\`{|}~`;
 
+const passwordLengthValue = document.querySelector("#value");
+const passwordLengthEl = document.querySelector("#password-length");
+passwordLengthValue.textContent = passwordLengthEl.value;
+passwordLengthEl.addEventListener("input", (event) => {
+    passwordLengthValue.textContent = event.target.value;
+});
+
+// console.log(input.value)

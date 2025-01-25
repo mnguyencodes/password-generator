@@ -10,14 +10,19 @@
         <div id="container">
             <h1>Generate a 
                 <br>
-                <span id="header">random password</span>
+                <span id="title-header">random password</span>
             </h1>
-            <p>Never use an insecure password again.</p>
+            <h2 id="header">Never use an insecure password again.</h2>
+            <div id="password-label-container">
+                <label for="password-length">Password Length: </label>
+                <input id="password-length" type="range" min="12" max="32">
+                <p id="value"></p>
+            </div>
             <button id="generate-btn">Generate Passwords</button>
             
             <div id="line"></div>
             <div id="password-container">
-                <button class="password">JFKHJEHOIWUO345U#%#@52352AQW35QA</button>
+                <button class="password">Test</button>
                 <button class="password">JFKHJEHOIWUO345U#%#@52352AQW35QA</button>
             </div>
         </div>

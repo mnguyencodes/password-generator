@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: Inter;
+    background: black; /* For OLED */
 }
 
 h1 {
@@ -9,11 +10,19 @@ h1 {
     font-size: 40px;
     line-height: 40px;
     font-weight: 800;
-    margin-bottom: 10px;
 }
 
-#header {
+#title-header {
     color: #4ADF86;
+}
+
+h2 {
+    color: #D5D4D8;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 0px;
+    margin-bottom: 60px;
 }
 
 #container {
@@ -24,14 +33,25 @@ h1 {
     padding-left: 52px;
 }
 
-p {
+#password-label-container {
     color: #D5D4D8;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    margin-top: 0px;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
 }
+
+#password-length {
+    color: #4ADF86;
+    background: #273549;
+    border: #D5D4D8 solid 1px;
+    width: 120px;
+    margin-left: 10px;
+}
+
+#value {
+    margin-left: 10px;
+}
+
 
 #generate-btn {
     width: 191px;
@@ -64,15 +84,11 @@ button {
     width: 446px;
     height: 39px;
     margin-bottom: 10px;
-    /* margin-right: 24px; */
 }
 
 #password-container {
     display: flex;
     flex-direction: column;
     height: 100px;
-    /* margin: 0px; */
     width: 446px;
-    /* background: red; */
-
 }

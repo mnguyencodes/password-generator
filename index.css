@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Inter;
-    background: black; /* For OLED */
+    background: black;
 }
 
 h1 {
@@ -27,31 +27,44 @@ h2 {
 
 #container {
     background: #1F2937;
-    height: 550px;
+    height: 650px;
     width: 550px;
     padding-top: 115px;
     padding-left: 52px;
 }
 
-#password-label-container {
+#password-options-container {
     color: #D5D4D8;
-    margin-bottom: 20px;
-    display: flex;
-    align-items: center;
+}
+
+.password-description {
+    width: 150px;
+}
+
+input[type='checkbox'] {
+    margin: 0 10px;
 }
 
 #password-length {
-    color: #4ADF86;
-    background: #273549;
-    border: #D5D4D8 solid 1px;
-    width: 120px;
-    margin-left: 10px;
+    width: 100px;
+}
+
+#password-label-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+    width: 290px;
 }
 
 #value {
     margin-left: 10px;
 }
 
+.options {
+    margin: 15px 0;
+    display: flex;
+}
 
 #generate-btn {
     width: 191px;
@@ -59,7 +72,7 @@ h2 {
     color: white;
     font-size: 16px;
     padding: 9px 16px;
-    margin-bottom: 35px;
+    margin: 35px 0;
 }
 
 button {

@@ -13,10 +13,26 @@
                 <span id="title-header">random password</span>
             </h1>
             <h2 id="header">Never use an insecure password again.</h2>
-            <div id="password-label-container">
-                <label for="password-length">Password Length: </label>
-                <input id="password-length" type="range" min="12" max="32">
-                <p id="value"></p>
+            <div id="password-options-container">
+                <div id="password-label-container">
+                    <label class="password-description" for="password-length">Password Length: </label>
+                    <input id="password-length" type="range" min="12" max="32">
+                    <p id="value"></p>
+                </div>
+                <div class="options">
+                    <label class="password-description" for="upper">Uppercase:</label>
+                    <input type="checkbox" id="upper">
+                </div>
+
+                <div class="options">
+                    <label class="password-description" for="numbers">Numbers:</label>
+                    <input type="checkbox" id="numbers">
+                </div>
+
+                <div class="options">
+                    <label class="password-description" for="special">Special Characters:</label>
+                    <input type="checkbox" id="special">
+                </div>
             </div>
             <button id="generate-btn">Generate Passwords</button>
             

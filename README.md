@@ -1,4 +1,4 @@
-# Practicing HTML and CSS
+# Practicing JavaScript
 Working through Scrimba's Frontend Developer Career Path and applying what I learnt with each project.
 
 This project highlights the following specific JavaScript concepts:

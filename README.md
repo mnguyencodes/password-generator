@@ -1,19 +1,23 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+# Practicing HTML and CSS
+Working through Scrimba's Frontend Developer Career Path and applying what I learnt with each project.
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+This project highlights the following specific JavaScript concepts:
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+- Math object
+- Conditionals
+- Functions
+- Event listener
+- let vs. const
+- DOM manipulation (textContent and querySelector)
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+## Installation
+To run this project locally:
 
-Happy Coding!
+1. Clone this repository.
+2. Open the index.html file in your browser.
+
+## Usage
+Explore the different projects to see how various concepts are applied. Each project is self-contained and demonstrates a specific technique or feature.
+
+## Acknowledgement
+A big thanks to Scrimba for providing an amazing community and enriching lessons.

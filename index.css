@@ -1,11 +1,11 @@
 body {
     margin: 0;
-    font-family: Inter;
+    font-family: "Inter", sans-serif;
     background: black;
 }
 
 h1 {
-    font-family: Karla;
+    font-family: "Karla", sans-serif;
     color: white;
     font-size: 40px;
     line-height: 40px;
@@ -30,8 +30,9 @@ h2 {
     background: #1F2937;
     height: 650px;
     width: 550px;
-    padding-top: 115px;
+    padding-top: 15px;
     padding-left: 52px;
+    margin: 0 auto;
 }
 
 .password-description {
